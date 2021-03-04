@@ -93,7 +93,7 @@ function keyPressed() {
 		  }
 
 	if (keyCode === DOWN_ARROW) {
-		Matter.Body.setStatic(packageSprite.body,false)
+		Matter.Body.setStatic(packageSprite,false)
 		 	}
 		  
 }
